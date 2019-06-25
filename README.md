@@ -3,6 +3,7 @@ Project and README file created:Tuesday, June 25, 2019.
 
 ### Project Title
 BikeShare
+version 1.0.0
 
 ### Description
 This project display variety of descriptive statistics about bike share systems for three major cities in the United States: Chicago, New York City, and Washington.
