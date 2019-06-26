@@ -52,29 +52,29 @@ print('                                    TO EXIT ENTER 0     \n')
 print('*'*111)
 print('*'*111)
 time.sleep(2)
-cit = input("Please enter the number of the city you want to explore: \n")
+num_city = input("Please enter the number of the city you want to explore: \n")
 a = 1
 while a != 0 : 
-   if cit == '1':
+   if num_city == '1':
     city = 'chicago'
     print('You have chose ',city,'\n')
     break
-   elif cit == '2':
+   elif num_city == '2':
     city = 'new york city'
     print('You have chose ',city,'\n')
     break
-   elif cit == '3':
+   elif num_city == '3':
     city = 'washington'
     print('You have chose ',city,'\n')
     break
-   elif cit == '0':      
+   elif num_city == '0':      
     print('\n''    YOU HAVE CHOSE EXIT ','\n')
     print('\n''     #############','\n')
     print('\n''    BYE BYE, SEE YOU SOON !!!!' '\n')
     break
    else:
     print('INVALIDE INPUT !!!')
-    cit = input("Please enter the number of the city you want to explore: ")
+    num_city = input("Please enter the number of the city you want to explore: ")
 
     # get user input for month (all, january, february, ... , june)
 
